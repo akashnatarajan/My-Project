@@ -1,0 +1,41 @@
+package org.java;
+
+
+	// Java program to demonstrate the
+	// ArrayDeque class in Java
+
+	import java.util.*;
+	public class ArrayDequeDemo {
+		public static void main(String[] args)
+		{
+			// Initializing an deque
+			ArrayDeque<Integer> de_que = new ArrayDeque<Integer>();
+
+			// add() method to insert
+			de_que.add(10);
+			de_que.add(20);
+			de_que.add(30);
+			de_que.add(40);
+			de_que.add(50);
+
+			System.out.println(de_que);
+
+			// clear() method
+			de_que.clear();
+
+			// addFirst() method to insert the
+			// elements at the head
+			de_que.addFirst(564);
+			de_que.addFirst(291);
+
+			// addLast() method to insert the
+			// elements at the tail
+			de_que.addLast(14);
+			de_que.addLast(34);
+
+			System.out.println(de_que);
+		}
+	}
+
+
+
