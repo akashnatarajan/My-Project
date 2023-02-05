@@ -16,7 +16,7 @@ public class Swapnumbers {
 		m = m - n;
 
 		System.out.println(m);
-		System.out.println(n);
+		System.out.println();
 
 	}
 
